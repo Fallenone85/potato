@@ -1,0 +1,6 @@
+$ git clone https://gitlab.com/digitalinternals/whatsapp-crypt12.git
+$ cd whatsapp-crypt12
+$ javac -classpath "lib/whatsapp_spongycastle.jar:." crypt12.java
+$ cp /path/to/file/key .
+$ cp /path/to/file/msgstore.db.crypt12 .
+java -cp "lib/whatsapp_spongycastle.jar:." crypt12
